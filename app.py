@@ -1,6 +1,10 @@
 import gradio as gr
 from google import genai
 import os
+from dotenv import load_dotenv
+
+# This automatically loads the variables from the .env file
+load_dotenv()
 
 # Initialize the Gemini Client
 # It will automatically look for the GEMINI_API_KEY environment variable
