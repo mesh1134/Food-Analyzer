@@ -11,7 +11,7 @@ with gr.Blocks() as demo:
             image_input = gr.Image(type="pil", label="Upload Food Image")
 
             gr.Examples(
-                examples=["examples/burger.jpeg", "examples/kerala_sadya.jpg"],
+                examples=["examples/burger.jpeg", "examples/kerala_sadya.jpg", "examples/Cricket_Balls.jpg"],
                 inputs=image_input,
                 label="Or click an example to test:"
             )
